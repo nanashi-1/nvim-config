@@ -22,6 +22,6 @@ Plug 'tpope/vim-commentary'
 call plug#end()
 
 " PLUGINS CUSTOMIZATIONS
-source plugins/treesitter.lua
-source plugins/lsp-zero.lua
-source plugins/cmp.lua
+source ~/.config/nvim/plugins/treesitter.lua
+source ~/.config/nvim/plugins/lsp-zero.lua
+source ~/.config/nvim/plugins/cmp.lua
