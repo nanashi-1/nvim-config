@@ -4,4 +4,4 @@ My nvim setup.
 
 ## Installation
 
-    cp nvim ~/.config/
+    cp -r nvim ~/.config/
