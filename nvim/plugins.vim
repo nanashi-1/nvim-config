@@ -41,6 +41,8 @@ Plug 'L3MON4D3/LuaSnip'
 
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 Plug 'tpope/vim-commentary'
+Plug 'nvim-tree/nvim-tree.lua'
+Plug 'nvim-tree/nvim-web-devicons'
 
 call plug#end()
 
@@ -48,3 +50,4 @@ call plug#end()
 source ~/.config/nvim/plugins/treesitter.lua
 source ~/.config/nvim/plugins/lsp-zero.lua
 source ~/.config/nvim/plugins/cmp.lua
+source ~/.config/nvim/plugins/nvim-tree.lua
