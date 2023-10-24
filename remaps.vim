@@ -27,3 +27,10 @@ let mapleader = ' '
 nnoremap <leader>pf :Telescope find_files<cr>
 nnoremap <leader>e :NvimTreeToggle<cr>
 nnoremap <c-s> :w<cr>
+
+" Navigation Remaps
+nnoremap <c-k> :wincmd k<cr>
+nnoremap <c-j> :wincmd j<cr>
+nnoremap <c-h> :wincmd h<cr>
+nnoremap <c-l> :wincmd l<cr>
+nnoremap <c-w> :q<cr>
