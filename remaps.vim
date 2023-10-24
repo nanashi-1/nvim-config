@@ -34,3 +34,8 @@ nnoremap <c-j> :wincmd j<cr>
 nnoremap <c-h> :wincmd h<cr>
 nnoremap <c-l> :wincmd l<cr>
 nnoremap <c-w> :q<cr>
+
+" Buffer Remaps
+nnoremap <leader>[ :bp<cr>
+nnoremap <leader>] :bn<cr>
+nnoremap <leader>bd :bd<cr>:bp<cr>

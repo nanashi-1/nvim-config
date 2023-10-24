@@ -43,6 +43,13 @@ Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 Plug 'tpope/vim-commentary'
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'nvim-tree/nvim-web-devicons'
+Plug 'lewis6991/gitsigns.nvim'
+Plug 'windwp/nvim-autopairs'
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'rafamadriz/friendly-snippets'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
@@ -51,3 +58,8 @@ source ~/.config/nvim/plugins/treesitter.lua
 source ~/.config/nvim/plugins/lsp-zero.lua
 source ~/.config/nvim/plugins/cmp.lua
 source ~/.config/nvim/plugins/nvim-tree.lua
+source ~/.config/nvim/plugins/gitsigns.lua
+source ~/.config/nvim/plugins/nvim-autopairs.lua
+source ~/.config/nvim/plugins/indent-blankline.lua
+source ~/.config/nvim/plugins/airline.vim
+

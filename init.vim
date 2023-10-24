@@ -25,4 +25,6 @@ source ~/.config/nvim/set.vim
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/remaps.vim
 
+" THEME
 :colorscheme kanagawa
+let g:airline_theme='onedark'
