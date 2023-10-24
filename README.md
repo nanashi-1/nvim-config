@@ -8,4 +8,4 @@ Install [vim-plug](https://github.com/junegunn/vim-plug#unix-linux) first.
 
 Then run:
 
-    cp -r nvim ~/.config/
+    git clone https://github.com/nanashi-1/nvim-config ~/.config/nvim
