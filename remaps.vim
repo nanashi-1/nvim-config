@@ -39,3 +39,11 @@ nnoremap <c-w> :q<cr>
 nnoremap <leader>[ :bp<cr>
 nnoremap <leader>] :bn<cr>
 nnoremap <leader>bd :bd<cr>:bp<cr>
+
+" System clipboard remaps
+vnoremap <leader>y "+y
+nnoremap <leader>y "+y
+vnoremap <leader>p "+p
+vnoremap <leader>P "+P
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
