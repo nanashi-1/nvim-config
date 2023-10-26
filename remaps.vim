@@ -23,7 +23,6 @@
 
 let mapleader = ' '
 
-" NORMAL MODE REMAPS
 nnoremap <leader>pf :Telescope find_files<cr>
 nnoremap <leader>e :NvimTreeToggle<cr>
 nnoremap <c-s> :w<cr>
@@ -47,3 +46,5 @@ vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 nnoremap <leader>p "+p
 nnoremap <leader>P "+P
+
+
