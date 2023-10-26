@@ -79,5 +79,9 @@ require("formatter").setup({
 		scss = {
 			prettier,
 		},
+
+		json = {
+			prettier,
+		},
 	},
 })
