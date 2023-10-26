@@ -34,10 +34,12 @@ Plug 'williamboman/mason-lspconfig.nvim'
 
 " LSP Support
 Plug 'neovim/nvim-lspconfig'
+
 " Autocompletion
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
 
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 Plug 'tpope/vim-commentary'
@@ -50,6 +52,7 @@ Plug 'rafamadriz/friendly-snippets'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
+Plug 'mhartington/formatter.nvim'
 
 call plug#end()
 
@@ -62,4 +65,5 @@ source ~/.config/nvim/plugins/gitsigns.lua
 source ~/.config/nvim/plugins/nvim-autopairs.lua
 source ~/.config/nvim/plugins/indent-blankline.lua
 source ~/.config/nvim/plugins/airline.vim
-
+source ~/.config/nvim/plugins/formatter.vim
+source ~/.config/nvim/plugins/formatter.lua
