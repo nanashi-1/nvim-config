@@ -47,4 +47,5 @@ vnoremap <leader>P "+P
 nnoremap <leader>p "+p
 nnoremap <leader>P "+P
 
-
+" Lazy git remaps
+nnoremap <leader>pg :LazyGit<cr>

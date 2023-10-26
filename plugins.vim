@@ -53,6 +53,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'mhartington/formatter.nvim'
+Plug 'kdheepak/lazygit.nvim'
 
 call plug#end()
 
