@@ -40,12 +40,12 @@ nnoremap <leader>] :bn<cr>
 nnoremap <leader>bd :bd<cr>:bp<cr>
 
 " System clipboard remaps
-vnoremap <leader>y "+y
-nnoremap <leader>y "+y
-vnoremap <leader>p "+p
-vnoremap <leader>P "+P
-nnoremap <leader>p "+p
-nnoremap <leader>P "+P
+vnoremap <leader>py "+y
+nnoremap <leader>py "+y
+vnoremap <leader>pp "+p
+vnoremap <leader>pP "+P
+nnoremap <leader>pp "+p
+nnoremap <leader>pP "+P
 
 " Lazy git remaps
 nnoremap <leader>pg :LazyGit<cr>
