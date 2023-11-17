@@ -54,6 +54,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'mhartington/formatter.nvim'
 Plug 'kdheepak/lazygit.nvim'
+Plug 'Saecki/crates.nvim'
 
 call plug#end()
 
@@ -68,3 +69,4 @@ source ~/.config/nvim/plugins/indent-blankline.lua
 source ~/.config/nvim/plugins/airline.vim
 source ~/.config/nvim/plugins/formatter.vim
 source ~/.config/nvim/plugins/formatter.lua
+source ~/.config/nvim/plugins/crates.lua
